@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "checkJs": true,
+      "allowJs": true,
+      "strict": false,
+      "jsx": "react"
+    },
+    "include": ["**/*.js", "**/*.jsx", "src/constants/Strings.ts"],
+  }
