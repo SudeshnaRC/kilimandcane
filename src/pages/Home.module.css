@@ -1,0 +1,59 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: 0 auto; /* Center the main container */
+    position: relative;
+}
+
+.imageContainer {
+    position: relative; /* Enable absolute positioning of text within this container */
+    width: 100%;
+    text-align: center;
+}
+
+.homeImage {
+    width: 85%;
+    height: auto;
+    margin-top: -20px; /* Adjust as needed to reduce space between the image and the text */
+}
+
+.vintage {
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    z-index: 2; /* Ensure this text is above the image */
+    position: relative;
+    top: 5px; /* Move the text closer to the image */
+}
+
+.interiorDesign {
+    font-size: 50px;
+    color: #fafafa;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 65px; /* Position this below the "VINTAGE" text */
+    left: 50%;
+    transform: translateX(-50%); /* Center the text horizontally */
+    z-index: 3; /* Ensure this text is above everything else */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    white-space: nowrap;  /* Add a shadow for better readability */
+}
+
+
+.overlayText {
+    position: absolute;
+    right: -5%; /* Align to the right side of the image container */
+    top: 80%; /* Align vertically along the center of the image container */
+    transform: translateY(-50%); /* Center the text vertically */
+    max-width: 50%; /* Restrict width to prevent it from stretching too far */
+    color: black; /* Text color */
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: right; /* Right justify the text */
+    z-index: 4; /* Ensure this text is above everything else */
+    white-space: pre-line; /* Preserve white spaces and allow text to break */
+}

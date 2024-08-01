@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {  useEffect, } from "react";
 import Header from "../components/Header";
 import { Outlet, useNavigate } from "react-router-dom";
 
@@ -11,8 +11,8 @@ function RootLayout() {
 
   return (
     <>
-      <Header />
-      <Outlet />
+        <Header />
+        <Outlet />
     </>
   );
 }

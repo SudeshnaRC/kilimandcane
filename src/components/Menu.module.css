@@ -1,0 +1,27 @@
+
+.navList {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .currentNavItem {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0; 
+  }
+  
+  .navItem {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0; 
+    will-change: filter;
+    transition: filter 300ms;
+  }
+
+  .navItem:hover{
+    cursor: pointer;
+    filter: drop-shadow(0.5rem 0.5rem 5rem rgba(50, 50, 50, 0.9));
+    font-weight: 600;
+  }

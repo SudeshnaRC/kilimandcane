@@ -2,7 +2,8 @@
 
 .header {
     display: flex;
-    justify-content: center; 
+    flex-direction: row;
+    align-items: center;
     max-width: 80%; 
     margin: 0 auto; 
     padding: 0;
@@ -12,6 +13,10 @@
     display: flex;
     justify-content: space-between; 
     width: 100%; 
+  }
+
+  .menuContainer {
+    margin: 1.25rem;
   }
   
   .semiboldText {
