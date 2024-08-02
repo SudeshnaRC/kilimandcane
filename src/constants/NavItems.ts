@@ -1,7 +1,9 @@
+export const HOME: string = "Home";
+export const ABOUT: string = "Philosophy"
+export const BLOG: string = "Blog"
+export const SHOP: string = "Collection"
+export const CONTACT: string = "Contact"
+
 export const NavItems: string [] = [
-    "Home",
-    "Philosophy",
-    "Blog",
-    "Collection",
-    "Contact"
+  HOME, ABOUT, BLOG, SHOP, CONTACT
 ]

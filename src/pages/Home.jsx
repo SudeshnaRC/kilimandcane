@@ -11,7 +11,7 @@ function Home() {
             <h1 className={styles.vintage}>VINTAGE</h1>
             <h1 className={styles.interiorDesign}>INTERIOR DESIGN</h1>
           </div>
-        <img src={galleryWall} className={styles.homeImage} alt="" />
+        <img src={galleryWall} className={styles.homeImage} alt="Gallery wall" />
         
         </div>
         <div>

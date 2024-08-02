@@ -1,5 +1,3 @@
-/* Header.module.css */
-
 .header {
     display: flex;
     flex-direction: row;
@@ -7,19 +5,24 @@
     max-width: 80%; 
     margin: 0 auto; 
     padding: 0;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     justify-content: space-between; 
     width: 100%; 
-  }
+}
 
-  .menuContainer {
+.menuContainer {
     margin: 1.25rem;
-  }
+}
   
-  .semiboldText {
+.semiboldText {
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
-  }
+}
+
+.logo {
+    max-width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
